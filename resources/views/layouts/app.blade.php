@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>@yield('page-title')Fashion Shop</title>
+    <title>@yield('page-title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
   </head>
   <body>
     <div id="page-wrapper">
