@@ -1,0 +1,40 @@
+main section#home {
+
+  .cards-wrapper {
+    margin: $margin_unit * 2 0;
+
+    .card {
+      min-width: $card_width;
+      margin: $margin_unit * 2 $margin_unit;
+      -webkit-box-shadow: 3px 4px 29px -12px rgba(0,0,0,0.62);
+      -moz-box-shadow: 3px 4px 29px -12px rgba(0,0,0,0.62);
+      box-shadow: 3px 4px 29px -12px rgba(0,0,0,0.62);
+
+      .card-header {
+        font-weight: $font_weight + 100;
+        font-size: $font_size;
+      }
+
+      .card-body {
+
+        h5.card-title {
+          text-shadow: 1px 1px $primary_color;
+          padding-bottom: $padding_unit / 2;
+        }
+
+        p.card-text {
+
+          span {
+            font-weight: $font_weight;
+          }
+
+          &.size {
+            span {
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}

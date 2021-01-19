@@ -10944,7 +10944,88 @@ a.text-dark:focus {
   }
 }
 
+main {
+  width: 100%;
+}
+
+main section {
+  padding: 40px 0;
+  background: #c5e7d5;
+  background: linear-gradient(124deg, #c5e7d5 0%, #b3d6d7 48%, #d0e5ff 100%);
+}
+
+main section h1 {
+  font-weight: 800;
+  padding: 20px 0;
+  text-shadow: 2px 2px #F2F2F2;
+}
+
 ul {
   list-style-type: none;
+}
+
+a {
+  color: #0B4C5F;
+}
+
+/* ------------------- MEDIA QUERY ------------------- */
+
+/* Breakpoint Small 576px sm */
+
+/* Breakpoint Medium 768px md */
+
+/* Breakpoint Large 992px lg */
+
+/* Breakpoint Extra Large 1200px xl */
+
+footer {
+  background-color: #0B4C5F;
+  color: #BDBDBD;
+  padding: 20px 0;
+}
+
+footer small span {
+  color: #F2F2F2;
+}
+
+main section#home .cards-wrapper {
+  margin: 20px 0;
+}
+
+main section#home .cards-wrapper .card {
+  min-width: 280px;
+  margin: 20px 10px;
+  box-shadow: 3px 4px 29px -12px rgba(0, 0, 0, 0.62);
+}
+
+main section#home .cards-wrapper .card .card-header {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+main section#home .cards-wrapper .card .card-body h5.card-title {
+  text-shadow: 1px 1px #0B4C5F;
+  padding-bottom: 10px;
+}
+
+main section#home .cards-wrapper .card .card-body p.card-text span {
+  font-weight: 600;
+}
+
+main section#home .cards-wrapper .card .card-body p.card-text.size span {
+  text-transform: uppercase;
+}
+
+main section#contacts p {
+  padding: 40px 0;
+}
+
+main section#contacts ul {
+  padding: 20px 0;
+}
+
+main section#contacts ul li a {
+  display: inline-block;
+  padding: 10px 0;
 }
 

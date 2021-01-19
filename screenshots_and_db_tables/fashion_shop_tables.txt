@@ -10,7 +10,7 @@ brand											VARCHAR (50), NOT NULL
 size											TINYINT, NOT NULL
 	(0 = XS / 1 = S / 2 = M / 3 = L / 4 = XL / 5 = XXL / 6 XXXL)
 design_gender									TINYINT, NULL
-	(0 = unisex / 1 = female / 2 = male)
+	(0 = unisex / 1 = woman / 2 = man)
 price											DECIMAL(11,2), NOT NULL
 color											VARCHAR (30), NULL
 length											TINYINT, NULL

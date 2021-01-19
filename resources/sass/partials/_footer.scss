@@ -1,0 +1,12 @@
+footer {
+  background-color: $primary_color;
+  color: $secondary_color;
+  padding: $padding_unit 0;
+
+  small {
+
+    span {
+      color: $third_color;
+    }
+  }
+}
