@@ -1,0 +1,24 @@
+----------------------------- FASHION SHOP TABLES -----------------------------
+
+
+--------- DRESSES TABLE ---------
+CLASS "DRESS"
+
+id_dress										INT, PRIMARY_KEY (AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
+name											VARCHAR (50), NOT NULL, INDEX
+brand											VARCHAR (50), NOT NULL
+size											TINYINT, NOT NULL
+	(0 = XS / 1 = S / 2 = M / 3 = L / 4 = XL / 5 = XXL / 6 XXXL)
+design_gender									TINYINT, NULL
+	(0 = unisex / 1 = female / 2 = male)
+price											DECIMAL(11,2), NOT NULL
+color											VARCHAR (30), NULL
+length											TINYINT, NULL
+	(0 = over the knee / 1 = mini / 2 = midi / 3 = maxi)
+style											VARCHAR (30), NULL
+type											VARCHAR (30), NULL
+neckline										VARCHAR (30), NULL
+sleeve_length									TINYINT, NULL
+	(0 = sleeveless / 1 = short sleeve / 2 = one sleeve / 3 = long sleeve)
+description										TEXT, NULL
+notes											VARCHAR(255), NULL
