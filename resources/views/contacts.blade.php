@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('page-title', 'Fashion Shop | Homepage')
+@section('page-title', 'Fashion Shop | Contacts')
 
 @section('section')
-  <section id="home" class="text-center">
+  <section id="contacts" class="text-center">
     <div class="container">
       <div class="row">
         <div class="col-12">
