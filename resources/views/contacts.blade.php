@@ -10,6 +10,6 @@
           <h1>{{$title}}</h1>
         </div>
       </div>
-    </div>   {{-- Closing Section-Home container --}}
+    </div>   {{-- Closing Section-Contacts container --}}
   </section>
 @endsection
