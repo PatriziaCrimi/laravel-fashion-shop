@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('page-title', 'Fashion Shop | Homepage')
+@section('page-title', 'Homepage')
 
 @section('section')
   <section id="home" class="text-center">
